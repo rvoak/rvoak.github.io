@@ -7,6 +7,12 @@ Hi! My name is Raj and I am a graduate student at UC Berkeley. I study at the Sc
 **_Malware Detection in Highly Imbalance Datasets_**. Malware is a malicious program which can steal sensitive information (financial details, passwords) and send them to adversaries, or use system resources to an adversary’s benefit (e.g. bitcoin mining). In the real world, the ratio of labeled malware samples ranges from about 0.1% - 2%, leading to a highly imbalanced datasets, which is a problem for machine learning methods. My research was in addressing the problem of high imbalance in malware detection. Inspired by the results shown by transfer learning in NLP and image processing tasks, we use a model called BERT, which relies on high pretraining to generate contextual embeddings. Using BERT, we are able to detect malware samples with an F-1 score of more than 90%, even when our data contains only 5% malware samples. An interesting finding from our research is that pretraining on NLP data helps improve the F-1 score by 3%.
 
 
+**_Lifelong Anomaly Detection_**. Anomaly detection is essential towards ensuring system security and reliability. 
+We find that existing approaches are not easy to adopt such new knowledge to improve system performance. We propose novel approaches to handle challenges associated with lifelong anomaly detection. In particular, we propose a framework called <i>unlearning</i>, which can effectively correct the model when a false negative (or a false positive) is labeled. To this aim, we develop several novel techniques to tackle two challenges referred to as exploding loss and catastrophic forgetting. 
+We evaluate our approach using two state-of-the-art zero-positive deep learning anomaly detection architectures and three real-world tasks. The results show that the proposed approach is able to significantly reduce the number of false positives and false negatives through unlearning.
+
+
+
 
 
 ---
