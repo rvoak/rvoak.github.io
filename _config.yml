@@ -2,5 +2,5 @@ header_pages:
   - about.md
   - publications.md
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-minima
 
