@@ -2,11 +2,14 @@
 ## About Me
 Hi! My name is Raj and I am a graduate student at UC Berkeley. I study at the School of Information and my focus is Data Science. I also do research in machine learning and computer security. I am advised by [Prof. Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/) and [Prof. Hany Farid](https://farid.berkeley.edu/). I also work as a teaching assistant with [Prof. Zachary Pardos](ischool.berkeley.edu/people/zachary-pardos). 
 
+---
+## Research
+**_Malware Detection in Highly Imbalance Datasets_**. Malware is a malicious program which can steal sensitive information (financial details, passwords) and send them to adversaries, or use system resources to an adversary’s benefit (e.g. bitcoin mining). In the real world, the ratio of labeled malware samples ranges from about 0.1% - 2%, leading to a highly imbalanced datasets, which is a problem for machine learning methods. My research was in addressing the problem of high imbalance in malware detection. Inspired by the results shown by transfer learning in NLP and image processing tasks, we use a model called BERT, which relies on high pretraining to generate contextual embeddings. Using BERT, we are able to detect malware samples with an F-1 score of more than 90%, even when our data contains only 5% malware samples. An interesting finding from our research is that pretraining on NLP data helps improve the F-1 score by 3%.
 
-## Projects
 
 
 
+---
 ## Publications
 
 * [Malware Detection on Highly Imbalanced Data through Sequence Modeling](http://delivery.acm.org/10.1145/3360000/3357374/p37-oak.pdf?ip=67.170.239.184&id=3357374&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E9F04A3A78F7D3B8D&__acm__=1574057799_abad147db8da043aa9798bbe7ffd90fd) <br>by **Rajvardhan Oak**, Min Du, David Yan, Harshavardhan Takawale and Idan Amit.<br>
@@ -16,6 +19,7 @@ In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications
 * [Poster: Adversarial Examples for Hate Speech Classifiers](http://delivery.acm.org/10.1145/3370000/3363271/p2621-oak.pdf?ip=67.170.239.184&id=3363271&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1574058225_4cbae9f3f1528cc5bde024ab1342eb22#URLTOKEN#)<br> by **Rajvardhan Oak** <br>In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security* (**CCS 2019**).
 * [Poster: Using Generative Adversarial Networks for Secure Pseudorandom Number Generation](http://delivery.acm.org/10.1145/3370000/3363265/p2597-oak.pdf?ip=67.170.239.184&id=3363265&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1574058318_5f87570083e9a46bafae83dec7e40489#URLTOKEN#)<br>by **Rajvardhan Oak**, Chaitanya Rahalkar and Dhaval Gujar.<br>In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security* (**CCS 2019**).
 
+---
 ## Teaching
 **Fall 2019**
 - [INFO 254/DATA 144 : Data Mining and Analytics](https://www.ischool.berkeley.edu/courses/info/254) with _Prof. Zachary Pardos_
