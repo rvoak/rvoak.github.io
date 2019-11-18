@@ -1,4 +1,3 @@
-# Rajvardhan Oak
 
 ## About Me
 Hi! My name is Raj and I am a graduate student at UC Berkeley. I study at the School of Information and my focus is Data Science. I also do research in machine learning and computer security. I am advised by [Prof. Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/) and [Prof. Hany Farid](https://farid.berkeley.edu/). I also work as a teaching assistant with [Prof. Zachary Pardos](ischool.berkeley.edu/people/zachary-pardos). 
@@ -6,11 +5,6 @@ Hi! My name is Raj and I am a graduate student at UC Berkeley. I study at the Sc
 
 ## Projects
 
-### Malware Detection
-
-### Lifelong Anomaly Detection
-
-### Fake News Detection
 
 
 ## Publications
@@ -24,4 +18,18 @@ In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications
 * [Poster: Adversarial Examples for Hate Speech Classifiers](http://delivery.acm.org/10.1145/3370000/3363271/p2621-oak.pdf?ip=67.170.239.184&id=3363271&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1574058225_4cbae9f3f1528cc5bde024ab1342eb22#URLTOKEN#)<br> by **Rajvardhan Oak** <br>In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security* (**CCS 2019**).
 
 * [Poster: Using Generative Adversarial Networks for Secure Pseudorandom Number Generation](http://delivery.acm.org/10.1145/3370000/3363265/p2597-oak.pdf?ip=67.170.239.184&id=3363265&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1574058318_5f87570083e9a46bafae83dec7e40489#URLTOKEN#)<br>by **Rajvardhan Oak**, Chaitanya Rahalkar and Dhaval Gujar.<br>In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security* (**CCS 2019**).
+
+## Teaching
+**Fall 2019**
+- [INFO 254/DATA 144 : Data Mining and Analytics](https://www.ischool.berkeley.edu/courses/info/254) with _Prof. Zachary Pardos_
+- [INFO 289: Public Interest Cybersecurity: The Citizen Clinic Practicum] (https://www.ischool.berkeley.edu/courses/info/289) with _Prof. Steve Weber_
+
+
+**Spring 2019**
+- [INFO 254/DATA 144 : Data Mining and Analytics](https://www.ischool.berkeley.edu/courses/info/254) with _Prof. Zachary Pardos_
+
+**Fall 2018**
+- [INFO 260: Machine Learning in Education](https://www.ischool.berkeley.edu/courses/info/260f) with _Prof. Zachary Pardos_
+- [INFO W205: Foundations of Data Engineering](https://www.ischool.berkeley.edu/courses/datasci/205) with _Prof. Kevin Crook_
+
 
