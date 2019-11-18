@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
-nav:
-  - About: 'about.md'
-  - Publications: 'publications.md'
+header_pages:
+  - about.md
+  - publications.md
