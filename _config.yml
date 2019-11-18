@@ -1,4 +1,6 @@
-theme: jekyll-theme-minimal
 header_pages:
   - about.md
   - publications.md
+
+theme: jekyll-theme-minimal
+
