@@ -19,7 +19,7 @@ In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications
 ## Teaching
 **Fall 2019**
 - [INFO 254/DATA 144 : Data Mining and Analytics](https://www.ischool.berkeley.edu/courses/info/254) with _Prof. Zachary Pardos_
-- [INFO 289: Public Interest Cybersecurity: The Citizen Clinic Practicum] (https://www.ischool.berkeley.edu/courses/info/289) with _Prof. Steve Weber_
+- [INFO 289: Public Interest Cybersecurity: The Citizen Clinic Practicum](https://www.ischool.berkeley.edu/courses/info/289) with _Prof. Steve Weber_
 
 **Spring 2019**
 - [INFO 254/DATA 144 : Data Mining and Analytics](https://www.ischool.berkeley.edu/courses/info/254) with _Prof. Zachary Pardos_
