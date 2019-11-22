@@ -12,10 +12,10 @@ Presently, I am working with [Facebook AI Research](https://ai.facebook.com/) to
 
 * [Malware Detection on Highly Imbalanced Data through Sequence Modeling](https://drive.google.com/file/d/1weet3fTRddJSL66P1gIo9MgKIhRLOV6h/view?usp=sharing) <br>by **Rajvardhan Oak**, Min Du, David Yan, Harshavardhan Takawale and Idan Amit.<br>
 In *Proceedings of the 12th ACM Workshop on Artificial Intelligence and Security* (**AISec 2019**)
-* [Lifelong Anomaly Detection Through Unlearning](http://delivery.acm.org/10.1145/3370000/3363226/p1283-du.pdf?ip=67.170.239.184&id=3363226&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1574058032_d9128540fc2f8b9300c0a34c9e703b75#URLTOKEN#) <br>by Min Du, Zhi Chen, Chang Liu, **Rajvardhan Oak** and Dawn Song.<br>
+* [Lifelong Anomaly Detection Through Unlearning](https://drive.google.com/file/d/1Z8fcNdgVtfX4ekzi6hyKGgxMN2HBbFFl/view?usp=sharing) <br>by Min Du, Zhi Chen, Chang Liu, **Rajvardhan Oak** and Dawn Song.<br>
 In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security* (**CCS 2019**).
-* [Poster: Adversarial Examples for Hate Speech Classifiers](http://delivery.acm.org/10.1145/3370000/3363271/p2621-oak.pdf?ip=67.170.239.184&id=3363271&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1574058225_4cbae9f3f1528cc5bde024ab1342eb22#URLTOKEN#)<br> by **Rajvardhan Oak** <br>In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security* (**CCS 2019**).
-* [Poster: Using Generative Adversarial Networks for Secure Pseudorandom Number Generation](http://delivery.acm.org/10.1145/3370000/3363265/p2597-oak.pdf?ip=67.170.239.184&id=3363265&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1574058318_5f87570083e9a46bafae83dec7e40489#URLTOKEN#)<br>by **Rajvardhan Oak**, Chaitanya Rahalkar and Dhaval Gujar.<br>In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security* (**CCS 2019**).
+* [Poster: Adversarial Examples for Hate Speech Classifiers](https://drive.google.com/file/d/1kx6y7Tz_nX5wT7G4JggQQl3LKjcw9k6A/view?usp=sharing)<br> by **Rajvardhan Oak** <br>In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security* (**CCS 2019**).
+* [Poster: Using Generative Adversarial Networks for Secure Pseudorandom Number Generation](https://drive.google.com/file/d/1FVc9DQUUYZbddMVom3UY5GETNJIPNj2G/view?usp=sharing)<br>by **Rajvardhan Oak**, Chaitanya Rahalkar and Dhaval Gujar.<br>In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security* (**CCS 2019**).
 
 ---
 ## Research
