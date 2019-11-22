@@ -19,6 +19,8 @@ In *Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications
 
 ---
 ## Research
+I am interested in the intersection of machine learning in security. I like to explore problems such as vulnerability detection, anomaly detection, and intrusion detection using machine learning. Recently, I have also been interested in using machine learning to combat disinformation online. This is a broad interest which covers deep fakes, hoax news, authorship fake news, bot accounts on social media, etc. <br>
+Here are some of my recent projects:<br><br>
 **_Malware Detection in Highly Imbalance Datasets_**. Malware is a malicious program which can steal sensitive information (financial details, passwords) and send them to adversaries, or use system resources to an adversary’s benefit (e.g. bitcoin mining). In the real world, the ratio of labeled malware samples ranges from about 0.1% - 2%, leading to a highly imbalanced datasets, which is a problem for machine learning methods. My research was in addressing the problem of high imbalance in malware detection. Inspired by the results shown by transfer learning in NLP and image processing tasks, we use a model called BERT, which relies on high pretraining to generate contextual embeddings. Using BERT, we are able to detect malware samples with an F-1 score of more than 90%, even when our data contains only 5% malware samples. An interesting finding from our research is that pretraining on NLP data helps improve the F-1 score by 3%.
 
 
