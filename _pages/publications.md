@@ -7,18 +7,41 @@ permalink: /publications/
 
 ## Publications
 
-<input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
+<div class="publication-years" id="pubList">
 
-<div class="section-card" id="pubList">
-<h3>Preprints</h3>
+<section class="section-card pub-year">
+<h3>2025</h3>
 
-{% bibliography --query @unpublished %}
+{% bibliography --query @*[year=2025] %}
+</section>
 
-<h3>Refereed Journal Articles</h3>
+<section class="section-card pub-year">
+<h3>2024</h3>
 
-{% bibliography --query @article %}
+{% bibliography --query @*[year=2024] %}
+</section>
 
-<h3>Refereed Conference Proceedings</h3>
+<section class="section-card pub-year">
+<h3>2023</h3>
 
-{% bibliography --query @inproceedings %}
+{% bibliography --query @*[year=2023] %}
+</section>
+
+<section class="section-card pub-year">
+<h3>2020</h3>
+
+{% bibliography --query @*[year=2020] %}
+</section>
+
+<section class="section-card pub-year">
+<h3>2019</h3>
+
+{% bibliography --query @*[year=2019] %}
+</section>
+
+<section class="section-card pub-year">
+<h3>2018</h3>
+
+{% bibliography --query @*[year=2018] %}
+</section>
 </div>

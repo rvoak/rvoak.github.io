@@ -1,18 +1,6 @@
 // =============================================================
-// Home page — two-column grid, editorial feel
+// Home page
 // =============================================================
-
-.home-grid {
-  display: grid;
-  grid-template-columns: 1fr 340px;
-  gap: var(--space-12);
-  align-items: start;
-
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-    gap: var(--space-8);
-  }
-}
 
 .home-content {
   min-width: 0;

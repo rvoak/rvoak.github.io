@@ -1,22 +1,22 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Richard Feynman"
-title: "Professor of Physics"
-institution: "California Institute of Technology"
-email: richard@university.edu
-photo: headshot.jpg  # place your photo in images/
+name: "Rajvardhan Oak"
+title: "Senior Research Scientist"
+institution: "Meta"
+email: rvoak@ucdavis.edu
+photo: Raj_Headshot_02.jpg  # place your photo in images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- delete any you don't use)
 # ============================================================
 links:
-  google_scholar: "https://scholar.google.com/citations?user=B7vSqZsAAAAJ"
-  github: "https://github.com/"
-  researchgate: "https://www.researchgate.net/"
-  orcid: ""
+  google_scholar: "https://scholar.google.com/citations?user=kRwB848AAAAJ&hl=en&oi=ao"
+  github: "https://github.com/rvoak"
+  researchgate: ""
+  orcid: "https://orcid.org/0000-0003-1928-099X"
   twitter: ""
-  linkedin: ""
+  linkedin: "https://www.linkedin.com/in/rvoak"
   cv: ""  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
 
 # ============================================================
@@ -24,9 +24,9 @@ links:
 # ============================================================
 accent_color: "#1a7a6d"      # theme color for links and buttons
 dark_mode: true              # show dark mode toggle in navbar
-description: "Academic webpage of Dr. Richard Feynman"
+description: "Personal website of Rajvardhan Oak, a Senior Research Scientist at Meta working on AI safety, investigations, integrity, online abuse, and fraud detection."
 baseurl: ""
-url: ""
+url: "https://rvoak.github.io"
 
 # Google Analytics — paste your GA4 measurement ID, or leave blank
 analytics:
@@ -36,14 +36,11 @@ analytics:
 # STEP 4: Choose Your Pages (comment out any you don't need)
 # ============================================================
 nav_pages:
-  - name: about
   - name: publications
+  - name: press-coverage
+    title: Press Coverage
+  - name: service
   - name: talks
-  - name: research
-  - name: software
-  - name: team
-  - name: teaching
-  - name: blogs
 
 # ============================================================
 # Advanced Settings (you probably don't need to change these)
@@ -76,8 +73,8 @@ kramdown:
 plugins: ["jekyll/scholar", "jekyll-sitemap"]
 
 scholar:
-  last_name: Doe
-  first_name: [John]
+  last_name: Oak
+  first_name: [Rajvardhan, Raj]
   style: citesty
   locale: en
   source: /assets/

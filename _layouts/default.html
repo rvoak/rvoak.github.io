@@ -7,8 +7,15 @@
 
     {% include header.html %}
 
-    <main class="site-container">
-      {{ content }}
+    <main class="site-container{% if page.url == '/publications/' %} publications-container{% endif %}">
+      <div class="site-grid">
+        <aside class="site-sidebar" aria-label="Profile and news">
+          {% include sidebar.html %}
+        </aside>
+        <div class="site-content">
+          {{ content }}
+        </div>
+      </div>
     </main>
 
     {% include footer.html %}

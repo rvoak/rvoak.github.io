@@ -2,10 +2,38 @@
 ---
 
 <div class="pub-entry" data-pub-searchable>
-  <div class="text-justify">{{ reference }}</div>
+  <div class="pub-title">{{ entry.title }}</div>
 
-  <!-- You can use the below to make your name bold -->
-  <!-- <div class="text-justify">{{ reference | replace_first: 'Bryngelson, S. H.', '<b>Bryngelson, S. H.</b>' }}</div> -->
+  {% if entry.author %}
+  <div class="pub-authors">
+    {% assign author_list = entry.author | split: " and " %}
+    {% for raw_author in author_list %}
+      {% assign author_name = raw_author | strip %}
+      {% if author_name contains "," %}
+        {% assign name_parts = author_name | split: "," %}
+        {% assign author_last = name_parts[0] | strip %}
+        {% assign author_first = name_parts[1] | strip %}
+        {% assign author_name = author_first | append: " " | append: author_last %}
+      {% endif %}
+      {% if author_name == "Rajvardhan Oak" or author_name == "Raj Oak" %}<strong>{{ author_name }}</strong>{% else %}{{ author_name }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="pub-venue">
+    {% if entry.venue %}
+      <span class="pub-venue-name">{{ entry.venue }}</span>
+    {% elsif entry.booktitle %}
+      <span class="pub-venue-name">{{ entry.booktitle }}</span>
+    {% elsif entry.journal %}
+      <span class="pub-venue-name">{{ entry.journal }}</span>
+    {% elsif entry.publisher %}
+      <span class="pub-venue-name">{{ entry.publisher }}</span>
+    {% elsif entry.note %}
+      <span class="pub-venue-name">{{ entry.note }}</span>
+    {% endif %}
+    {% if entry.volume %}<span class="pub-detail"> {{ entry.volume }}</span>{% endif %}{% if entry.number %}<span class="pub-detail">({{ entry.number }})</span>{% endif %}{% if entry.pages %}<span class="pub-detail">, {{ entry.pages | replace: "--", "&ndash;" }}</span>{% endif %}
+  </div>
 
   {% assign bibtest = false %}
   {% if entry.file %}
@@ -18,8 +46,12 @@
   {% endif %}
 
   <div class="pub-actions">
+    {% if entry.pdf %}
+    <a href="{{ entry.pdf }}" target="_blank" class="btn-pill btn-pdf">PDF</a>
+    {% endif %}
+
     {% if bibtest %}
-    <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank" class="btn-pill btn-pdf">PDF</a>
+    <a href="{{ entry.file | prepend: "/papers/" | relative_url }}" target="_blank" class="btn-pill btn-pdf">PDF</a>
     {% endif %}
 
     {% if entry.doi %}

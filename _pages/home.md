@@ -8,32 +8,6 @@ permalink: /
 <h2 class="home-hero">{{ site.name }}</h2>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
-<div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Electrodynamics</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Path Integrals</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Superfluidity</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Parton Model</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Computing</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Nanotechnology</a>
-</div>
+I am a Senior Research Scientist at [Meta](https://www.meta.com/) working on AI safety, investigations, and integrity. My work focuses on understanding and mitigating real-world abuse of generative AI systems such as jailbreaks, cyber misuse and CBRNE harms. Prior to Meta, I was an Applied Scientist at [Microsoft](https://www.microsoft.com/) working on click fraud detection and fraud prevention for Microsoft Ads.
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-
-<div class="callout callout-success" markdown="0">
-<div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
-</div>
-
-<div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Feynman diagrams" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
-</div>
-
-### About me
-
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+I received my Ph.D. in Computer Science from [UC Davis](https://www.ucdavis.edu/), advised by [Zubair Shafiq](https://web.cs.ucdavis.edu/~zubair/). Before that, I completed my master's degree at [UC Berkeley](https://www.berkeley.edu/), where I was fortunate to work with [Dawn Song](https://dawnsong.io) and [Hany Farid](https://farid.berkeley.edu).

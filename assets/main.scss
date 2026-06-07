@@ -38,6 +38,8 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 @import "components/footer";
 @import "components/profile";
 @import "components/publication";
+@import "components/press";
+@import "components/service";
 @import "components/search";
 @import "components/chips";
 

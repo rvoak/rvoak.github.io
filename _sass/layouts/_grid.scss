@@ -9,7 +9,29 @@
 }
 
 .site-container {
-  max-width: var(--container-max);
+  max-width: min(1320px, calc(100vw - 2rem));
   margin: 0 auto;
-  padding: var(--space-8) var(--container-padding) 0;
+  padding: var(--space-8) 1rem 0;
+}
+
+.site-grid {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.site-content {
+  min-width: 0;
+}
+
+.site-sidebar {
+  min-width: 0;
+}
+
+@media (max-width: 900px) {
+  .site-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
 }
