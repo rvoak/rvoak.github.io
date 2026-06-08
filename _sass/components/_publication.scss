@@ -6,7 +6,7 @@
   max-width: 1280px;
 
   .section-card {
-    padding: var(--space-6);
+    padding: var(--space-4);
   }
 
   > .fade-in-section > p {
@@ -16,19 +16,19 @@
 
 .publication-years {
   display: grid;
-  gap: var(--space-3);
+  gap: var(--space-2);
 }
 
 .pub-year.section-card {
   margin: 0;
-  padding: var(--space-4) var(--space-6);
+  padding: var(--space-3) var(--space-4);
 }
 
 .pub-entry {
-  padding: var(--space-4) 0;
+  padding: var(--space-2) 0;
   border-bottom: 1px solid var(--border-color);
   position: relative;
-  line-height: 1.55;
+  line-height: 1.35;
 
   &:last-child {
     border-bottom: none;
@@ -37,17 +37,17 @@
   .pub-title {
     font-weight: 600;
     color: var(--text-primary);
-    font-size: 1rem;
+    font-size: 0.93rem;
     font-family: inherit;
-    line-height: 1.55;
+    line-height: 1.35;
   }
 
   .pub-authors {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: inherit;
     color: var(--text-secondary);
     margin-top: var(--space-1);
-    line-height: 1.55;
+    line-height: 1.35;
 
     strong {
       color: var(--text-primary);
@@ -56,10 +56,10 @@
   }
 
   .pub-venue {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: inherit;
     color: var(--text-muted);
-    line-height: 1.55;
+    line-height: 1.35;
     margin-top: var(--space-1);
   }
 
@@ -71,8 +71,8 @@
   .pub-actions {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--space-2);
-    margin-top: var(--space-2);
+    gap: var(--space-1);
+    margin-top: var(--space-1);
   }
 }
 
@@ -93,8 +93,8 @@
   }
 
   h3 {
-    margin-top: var(--space-6);
-    margin-bottom: var(--space-3);
+    margin-top: var(--space-3);
+    margin-bottom: var(--space-2);
 
     &:first-child {
       margin-top: 0;
@@ -118,16 +118,16 @@
 
   &.show {
     max-height: 1000px;
-    padding-top: var(--space-3);
+    padding-top: var(--space-2);
   }
 
   pre {
     background-color: var(--bg-secondary);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-md);
-    padding: var(--space-4);
-    margin: var(--space-3) 0 0;
-    font-size: 0.8125rem;
+    padding: var(--space-3);
+    margin: var(--space-2) 0 0;
+    font-size: 0.75rem;
     white-space: pre-wrap;
     word-wrap: break-word;
     color: var(--text-primary);

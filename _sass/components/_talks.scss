@@ -1,13 +1,13 @@
 // =============================================================
-// Press coverage page
+// Talks page
 // =============================================================
 
-.press-page {
+.talks-page {
   display: grid;
   gap: var(--space-2);
 }
 
-.press-year {
+.talks-year {
   &.section-card {
     margin: 0;
     padding: var(--space-3) var(--space-4);
@@ -19,7 +19,7 @@
   }
 }
 
-.press-list {
+.talks-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -35,18 +35,14 @@
     padding-bottom: 0;
   }
 
-  a {
+  .talk-title {
     color: var(--accent);
     display: inline;
     font-weight: 600;
     line-height: 1.3;
   }
 
-  a:hover {
-    color: var(--accent-hover);
-  }
-
-  span {
+  .talk-venue {
     float: right;
     max-width: 14rem;
     margin-left: var(--space-4);
@@ -60,13 +56,15 @@
 }
 
 @media (max-width: 640px) {
-  .press-list span {
-    float: none;
-    display: block;
-    margin-left: 0;
-    margin-bottom: var(--space-1);
-    max-width: none;
-    text-align: left;
-    white-space: normal;
+  .talks-list {
+    .talk-venue {
+      float: none;
+      display: block;
+      margin-left: 0;
+      margin-bottom: var(--space-1);
+      max-width: none;
+      text-align: left;
+      white-space: normal;
+    }
   }
 }

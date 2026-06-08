@@ -5,19 +5,19 @@
 .grid-auto {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: var(--space-6);
+  gap: var(--space-4);
 }
 
 .site-container {
   max-width: min(1320px, calc(100vw - 2rem));
   margin: 0 auto;
-  padding: var(--space-8) 1rem 0;
+  padding: var(--space-4) 1rem 0;
 }
 
 .site-grid {
   display: grid;
   grid-template-columns: 240px minmax(0, 1fr);
-  gap: var(--space-6);
+  gap: var(--space-4);
   align-items: start;
 }
 
@@ -32,6 +32,6 @@
 @media (max-width: 900px) {
   .site-grid {
     grid-template-columns: 1fr;
-    gap: var(--space-8);
+    gap: var(--space-4);
   }
 }

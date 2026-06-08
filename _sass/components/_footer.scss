@@ -5,8 +5,8 @@
 .site-footer {
   background-color: var(--bg-secondary);
   border-top: 1px solid var(--border-color);
-  padding: var(--space-12) 0 var(--space-8);
-  margin-top: var(--space-16);
+  padding: var(--space-6) 0 var(--space-4);
+  margin-top: var(--space-8);
   position: relative;
 
   h5 {
@@ -16,14 +16,14 @@
     text-transform: uppercase;
     letter-spacing: 0.12em;
     color: var(--text-muted);
-    margin-bottom: var(--space-4);
+    margin-bottom: var(--space-2);
     margin-top: 0;
   }
 
   p, a {
-    font-size: 0.8125rem;
+    font-size: 0.75rem;
     color: var(--text-secondary);
-    line-height: 1.9;
+    line-height: 1.5;
   }
 
   a:hover {
@@ -33,21 +33,21 @@
   .footer-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-8);
+    gap: var(--space-4);
     max-width: var(--container-max);
     margin: 0 auto;
     padding: 0 var(--container-padding);
 
     @media (max-width: 640px) {
       grid-template-columns: 1fr;
-      gap: var(--space-6);
+      gap: var(--space-3);
     }
   }
 
   .footer-copyright {
     text-align: center;
-    margin-top: var(--space-8);
-    padding-top: var(--space-6);
+    margin-top: var(--space-4);
+    padding-top: var(--space-3);
     border-top: 1px solid var(--border-color);
     color: var(--text-muted);
     font-size: 0.6875rem;

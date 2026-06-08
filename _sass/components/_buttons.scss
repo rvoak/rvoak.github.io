@@ -4,15 +4,15 @@
 
 .btn-pill {
   display: inline-block;
-  padding: 0.25rem 0.875rem;
-  font-size: 0.75rem;
+  padding: 0.15rem 0.65rem;
+  font-size: 0.6875rem;
   font-weight: 600;
   border-radius: var(--radius-full);
   border: 1px solid transparent;
   cursor: pointer;
   transition: all var(--transition-fast);
   text-decoration: none;
-  line-height: 1.6;
+  line-height: 1.35;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 
@@ -68,12 +68,12 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: var(--radius-full);
   color: var(--text-muted);
   transition: all var(--transition-fast);
-  font-size: 1.125rem;
+  font-size: 1rem;
 
   &:hover {
     color: var(--accent);

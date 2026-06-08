@@ -6,8 +6,8 @@
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
-  padding: var(--space-6);
-  margin-bottom: var(--space-6);
+  padding: var(--space-4);
+  margin-bottom: var(--space-3);
   box-shadow: var(--shadow-sm);
   transition: box-shadow var(--transition-slow), transform var(--transition-slow);
 
@@ -25,9 +25,9 @@
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-xl);
-  padding: var(--space-8);
-  margin-top: var(--space-6);
-  margin-bottom: var(--space-6);
+  padding: var(--space-5);
+  margin-top: var(--space-3);
+  margin-bottom: var(--space-3);
   box-shadow: var(--shadow-sm);
 
   h3, h4 {
