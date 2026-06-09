@@ -16,8 +16,8 @@
 
 .site-grid {
   display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
-  gap: var(--space-4);
+  grid-template-columns: 285px minmax(0, 1fr);
+  gap: var(--space-10);
   align-items: start;
 }
 
