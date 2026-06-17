@@ -7,6 +7,7 @@ permalink: /publications/
 
 ## Publications
 
+<div markdown="0">
 <div class="publication-years" id="pubList">
 
   <section class="section-card pub-year">
@@ -1350,4 +1351,5 @@ permalink: /publications/
 </div>
 </li></ol>
   </section>
+</div>
 </div>
