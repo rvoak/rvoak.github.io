@@ -14,17 +14,6 @@ permalink: /service/
 <ul class="service-list">
 <li class="service-item">
 <div>
-<span class="service-venue">ACM CHI Conference on Human Factors in Computing Systems</span>
-<span class="service-abbrev">(CHI)</span>
-</div>
-<div class="service-years">
-<span>2025</span>
-<span>2026</span>
-</div>
-</li>
-
-<li class="service-item">
-<div>
 <span class="service-venue">Network and Distributed System Security Symposium</span>
 <span class="service-abbrev">(NDSS)</span>
 </div>
@@ -32,6 +21,17 @@ permalink: /service/
 <span>2025</span>
 <span>2026</span>
 <span>2027</span>
+</div>
+</li>
+
+<li class="service-item">
+<div>
+<span class="service-venue">ACM CHI Conference on Human Factors in Computing Systems</span>
+<span class="service-abbrev">(CHI)</span>
+</div>
+<div class="service-years">
+<span>2025</span>
+<span>2026</span>
 </div>
 </li>
 
@@ -48,11 +48,48 @@ permalink: /service/
 
 <li class="service-item">
 <div>
+<span class="service-venue">ACM Workshop on Artificial Intelligence and Security</span>
+<span class="service-abbrev">(AISec)</span>
+</div>
+<div class="service-years">
+<span>2019</span>
+<span>2020</span>
+<span>2021</span>
+<span>2022</span>
+<span>2023</span>
+</div>
+</li>
+
+<li class="service-item">
+<div>
 <a href="https://mobilehci.acm.org/2022/" class="service-venue">ACM International Conference on Mobile Human-Computer Interaction</a>
 <span class="service-abbrev">(MobileHCI)</span>
 </div>
 <div class="service-years">
 <span>2022</span>
+</div>
+</li>
+
+<li class="service-item">
+<div>
+<span class="service-venue">ACM SIGSAC Conference on Computer and Communications Security</span>
+<span class="service-abbrev">(CCS)</span>
+</div>
+<div class="service-years">
+<span>2019</span>
+<span>2020</span>
+<span>2021</span>
+</div>
+</li>
+
+<li class="service-item">
+<div>
+<span class="service-venue">IEEE Symposium on Security and Privacy</span>
+<span class="service-abbrev">(IEEE S&amp;P)</span>
+</div>
+<div class="service-years">
+<span>2020</span>
+<span>2021</span>
 </div>
 </li>
 
